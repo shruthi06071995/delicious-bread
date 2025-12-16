@@ -1,0 +1,64 @@
+div.overallpages {
+    max-width: 600%;
+    height: auto;
+    font-family: "Raleway",sans-serif;
+}
+div.firstpage {
+    background-color: black;
+    color: white;
+    height: 700px;
+    position: relative;
+}
+div.leftdisplay {
+    position: absolute;
+    top: 98px;
+}
+div.rightdisplay {
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    top: 100px;
+    left: 900px;
+    justify-content: center;
+}
+div.logo {
+    width: 141px;
+    height: 130px;
+    margin: 0 auto;
+}
+div.title {
+    margin: 0px 10px 15px 100px;
+    font-size: 30px;
+    font-weight: 800;
+}
+div.content {
+    margin: 0px 20px 20px 50px;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: center;
+}
+div.freepik {
+    margin: 10px 40px 15px 210px;
+    padding-top: 3px;
+}
+a.first:link, a.first:hover {
+    color: white;
+}
+a.viewproduct:link, a.first:visited {
+    border: 3px solid white;
+    color: white;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.viewproduct:hover, a.viewproduct:active {
+    background-color: white;
+    color: black;
+}
+a.viewproduct {
+    margin: 40px 40px 15px 150px;
+    border-radius: 7px;
+    font-weight: 800px;
+    font-size: 20px;
+}
